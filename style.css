@@ -8,10 +8,16 @@
     margin: auto;
     padding-top: 109px;
 }
-#leftLinks {
+#leftTopLinks {
     float: left;
 }
-#rightLinks {
+#rightTopLinks {
+    float: right;
+}
+#leftBottomLinks {
+    float: left;
+}
+#rightBottomLinks {
     float: right;
 }
 a {
@@ -28,6 +34,7 @@ a {
     margin-left: 30%;
     margin-right: 30%;
     height: 30px;
+    padding-bottom: 100px;
 }
 #searchBar
 {
@@ -48,4 +55,11 @@ a {
     border-radius: 5px;
     color: #000;
     opacity: 0.75;
+}
+#footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
